@@ -2,9 +2,11 @@
   "name": "new-folder",
   "version": "1.0.0",
   "description": "backend - youtube",
+  "type": "module",
+   
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javascript",
@@ -12,8 +14,6 @@
     "chai"
   ],
   "author": "monil mishra",
-  "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^3.1.3"
-  }
+  "license": "ISC"
+  
 }
